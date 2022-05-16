@@ -1,0 +1,61 @@
+.header {
+    background-image: url("img/top_bg.png");
+    margin: -10px;
+    height: 52px;
+}
+
+.container {
+    margin: 0 250px;
+    height: 1000px;
+}
+
+.img {
+    margin-top: 10px;
+    height: 300px;
+    background-image: url("img/flash_img.png")
+}
+
+.logo {
+    margin-left: -10px;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.bgbrown{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    background-color: brown;
+    text-align: center;
+}
+
+.bar{
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover{
+    background-image: url("img/rings.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s ease-in; 
+}
+
+.footer{
+    margin: -10px;
+    background-image: url("img/foot_bg.png");
+    height: 212px;
+}
+
+

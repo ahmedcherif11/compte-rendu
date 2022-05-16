@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container  ">
+        
+        <div class="row " >
+            <div class="col  bg-warning text-black text-center "><h1>Mini Word</h1>  </div>
+        </div>
+       
+        <div class="row">
+            <div class="col   m-5">
+                <div class="col ps-1 "> <h5>choisir un couleur</h5> </div>
+                <div class="col ps-5">
+                     <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#000000" name="couleur" onblur="color(value)" >
+                </div>
+         </div>
+            <div class="col   text-center m-5">
+                 <h5>choisir un taille</h5>
+                <input class="form-control" type="number"  name="taille" onblur="taille(value)">
+             </div>
+            <div class="col   text-center m-5">
+                <h5>choisir un police d'ecriture</h5>
+                <select class="form-select"  onblur="police(value)" name="police">
+                    <option selected value="0">ouvrir</option>
+                    <option value="arial">Arial</option>
+                    <option value="verdana"> Verdana</option>
+                    <option value="raleway">Raleway</option>
+                  </select>
+            </div>
+
+
+            <div class="row ">
+                <div class="col text-center">
+                    <p ><font color="black" face="serif" size=5 id="text" >Ce texte est personaliser comme vous voulez !!</font></p>
+                </div>
+            </div>
+
+
+
+       
+
+
+
+
+    </div>
+  <script src="script.js"></script>  
+</body>
+</html>

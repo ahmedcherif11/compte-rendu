@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incription en licence</title>
+</head>
+<body bgcolor="yellow" >
+    <h1 align = "center">Inscription en licence</h1>
+        <fieldset>
+        <legend align = "center">Informations Personnelles</legend>
+        <form action="page4.html">
+            <label align = "center" font face = "Courier" font size = "small">Votre Nom <input type="text" placeholder="Votre Nom"></label><br>
+         
+            <label align = "center" font face = "Courier" font size = "small">Votre Prénom <input type="text" placeholder="Votre Prénom"></label><br>
+         
+         
+            <label align = "center" font face = "Courier" font size = "small">Votre Age <input type="number" id="Age" min="0" max="100" placeholder="Age"></label><br>
+         
+         
+            <label align = "center" font face = "Courier" font size = "small">Date de naissance <input type="date"></label><br>
+         
+         
+            <label align = "center" font face = "Courier" font size = "small">Votre Adresse <textarea placeholder="Votre Adresse"></textarea></label><br>
+         
+         
+            <label align = "center" font face = "Courier" font size = "small">Mot de Passe <input type="password" placeholder="Votre Mot de passe" required></label><br>
+         
+            <label align = "center" font face = "Courier" font size = "small">Répetez votre Mot de Passe <input type="password" placeholder="Votre Mot de passe" required></label>
+        <br>
+    </fieldset>
+
+        <fieldset>
+        <legend align ="center">Gestion des groupes et des options</legend>
+         
+            <label align = "center" font face = "Courier" font size = "small">Votre groupe:<input type="radio" id="groupe" name="Groupe" value="1">Groupe 1<input type="radio" id="groupe" name="Groupe" value="1">Groupe 2<input type="radio" id="groupe" name="Groupe" value="1">Groupe 3
+            </label>
+        <br>
+         
+            <label align = "center" font face = "Courier" font size = "small">Numéro de carte d'etudiant:<input type="text" placeholder="Numéro de carte d'étudiant">
+            </label>
+        <br>
+         
+            <label align = "center" font face = "Courier" font size = "small">Choisissez les options que vous désirez <select id="options">
+                    <option value="J2ee">J2ee</option>
+                    <option value="Android">Android</option>
+                    <option value=".Net">.Net</option>
+                    <option value="HTML5" selected>HTML5</option>
+                    <option value="Flex" selected>Flex</option>
+                  </select>
+            </label>
+        <br>
+        <label align = "center" font face = "Courier" font size = "small"><input pattern="[I][N][S][A][T][0-9]{4}"></input></label>
+        </fieldset>
+        <p align = "center"><input type="submit" value="Valider"> <input type="reset" value="Réinitialiser"></p>
+    </form>
+</body>
+</html>
